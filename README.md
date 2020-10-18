@@ -13,3 +13,4 @@ As a demo three links have been already added in the code.
   If not then run `pip install beautifulsoup4` in your terminal
 - Then enter the repository directory and then run the python file using following command:
   `python scrape.py`
+- You will find 3 files made for three urls
