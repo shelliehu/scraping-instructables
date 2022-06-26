@@ -54,7 +54,9 @@ def scrape_instructables(link):
 
 url_list = ["https://www.instructables.com/Building-a-Self-Driving-Boat-ArduPilot-Rover/",
             "https://www.instructables.com/Hydraulic-Craft-Stick-Box/",
-            "https://www.instructables.com/How-to-Make-a-Self-Watering-Plant-Stand/"]
+            "https://www.instructables.com/How-to-Make-a-Self-Watering-Plant-Stand/",
+           "https://www.instructables.com/Mechanical-Cardboard-Hand/",
+           "https://www.instructables.com/Animation-Light-Box-1/"]
 
 for i, url in enumerate(url_list):
     with open("url"+str(i+1)+".json", 'w') as f:
