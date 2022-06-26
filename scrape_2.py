@@ -37,8 +37,8 @@ def scrape_instructables(link):
     if supp:
         sups = supp.find_all('li')
         for sup in sups:
-            sup = sup.text
-            supply_list.append(sup)
+            supplies = sup.text
+            supply_list.append(supplies)
 
     scraped = {
         "header_title": str(header_title),
