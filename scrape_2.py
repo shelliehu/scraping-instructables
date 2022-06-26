@@ -33,12 +33,18 @@ def scrape_instructables(link):
 
     supplies_body = soup.find("div", {"class": "step-body"})
     supp = supplies_body.find('ul')
+    supp2 = supplies_body.find(id = 'stepsupplies')
     supply_list = []
     if supp:
         sups = supp.find_all('li')
         for sup in sups:
             supplies = sup.text
             supply_list.append(supplies)
+    if supp2: #find class p in id stepsupplies
+        sups = supp.find('p')
+        for sup in sups:
+            supplies = sup.text
+            supply_list.append(supplies)     
 
     scraped = {
         "header_title": str(header_title),
@@ -52,8 +58,13 @@ def scrape_instructables(link):
     return scraped
 
 
-url_list = ["https://www.instructables.com/Interceptor-Jet-Card-Stock-Airplane/",
-           "https://www.instructables.com/Mechanical-Cardboard-Hand/"
+url_list = ["https://www.instructables.com/Interceptor-Jet-Card-Stock-Airplane/", #supplies: <p>
+           "https://www.instructables.com/Mechanical-Cardboard-Hand/",#supplies: <ul>
+            "https://www.instructables.com/Old-Toothbrush-Becomes-Rechargeable-Flashlight/",
+            "https://www.instructables.com/Giant-Binder-Clip-Bag/", #supplies: <p>
+            "https://www.instructables.com/Giant-Golden-Girls-Purse/", #supplies: <p> within class "step-body"
+            "https://www.instructables.com/3D-Printable-Timelapse3D-Scanning-Turntable/", #supplies: <p> + <ul>
+            "https://www.instructables.com/Making-Notebook-by-Using-Discarded-Cardboard/" #supplies: <p> supposed to work
            ]
 
 for i, url in enumerate(url_list):
