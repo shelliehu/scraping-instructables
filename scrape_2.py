@@ -35,7 +35,7 @@ def scrape_instructables(link):
     supp = supplies_body.find('ul')
     supply_list = []
     if supp:
-        sups = supp.findAll('li')
+        sups = supp.find_all('li')
         for sup in sups:
             sup = sup.text
             supply_list.append(sup)
