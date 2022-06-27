@@ -66,7 +66,10 @@ url_list = ["https://www.instructables.com/DIY-Cardboard-Tensegrity-Pen-Holder/"
            "https://www.instructables.com/Retropie-Arcade/",
            "https://www.instructables.com/Dovetailed-Blanket-Chest-With-Hand-Forged-Hinges/",
            "https://www.instructables.com/Pokemon-Gastly/",
-           "https://www.instructables.com/Mini-Indoor-Fire-Pit-for-Smores/"]
+           "https://www.instructables.com/Mini-Indoor-Fire-Pit-for-Smores/",
+           "https://www.instructables.com/Mandolin-From-One-2X4-stand-Too/",
+           "https://www.instructables.com/PVC-Pipe-Lamp-2/",
+           "https://www.instructables.com/Valentine-Heart-Pinwalker/"]
 
 for i, url in enumerate(url_list):
     with open("url"+str(i+1)+".json", 'w') as f:
