@@ -69,7 +69,24 @@ url_list = ["https://www.instructables.com/DIY-Cardboard-Tensegrity-Pen-Holder/"
            "https://www.instructables.com/Mini-Indoor-Fire-Pit-for-Smores/",
            "https://www.instructables.com/Mandolin-From-One-2X4-stand-Too/",
            "https://www.instructables.com/PVC-Pipe-Lamp-2/",
-           "https://www.instructables.com/Valentine-Heart-Pinwalker/"]
+           "https://www.instructables.com/Valentine-Heart-Pinwalker/",
+           "https://www.instructables.com/Building-a-Self-Driving-Boat-ArduPilot-Rover/",
+           "https://www.instructables.com/Hydraulic-Craft-Stick-Box/",
+           "https://www.instructables.com/How-to-Make-a-Self-Watering-Plant-Stand/",
+           "https://www.instructables.com/Mechanical-Cardboard-Hand/",
+           "https://www.instructables.com/Animation-Light-Box-1/",
+           "https://www.instructables.com/PVC-Pipe-Peg/",
+           "https://www.instructables.com/Skull-and-Mushroom-Terrarium/",
+           "https://www.instructables.com/Simple-LED-Earrings-1/",
+           "https://www.instructables.com/Cardboard-Storage-Shelf-From-Single-Box/",
+           "https://www.instructables.com/A-Cardboard-Polaroid-Camera-Webcam-Holder/",
+           "https://www.instructables.com/Recycled-Denim-Book-Protector/",
+           "https://www.instructables.com/Color-Changing-Bling-Ring/",
+           "https://www.instructables.com/Mushroom-Forest-Book-Nook/",
+           "https://www.instructables.com/Backflow-Incense-Burner/",
+           "https://www.instructables.com/The-74-PVC-Mega-Awesome-Super-PVC-Table/",
+           "https://www.instructables.com/Old-Bicycle-Seat-Felted-Taxidermy/"
+           ]
 
 for i, url in enumerate(url_list):
     with open("url"+str(i+1)+".json", 'w') as f:
