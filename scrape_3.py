@@ -79,13 +79,31 @@ url_list = ["https://www.instructables.com/DIY-Cardboard-Tensegrity-Pen-Holder/"
            "https://www.instructables.com/Skull-and-Mushroom-Terrarium/",
            "https://www.instructables.com/Simple-LED-Earrings-1/",
            "https://www.instructables.com/Cardboard-Storage-Shelf-From-Single-Box/",
-           #"https://www.instructables.com/A-Cardboard-Polaroid-Camera-Webcam-Holder/",
+           #"https://www.instructables.com/A-Cardboard-Polaroid-Camera-Webcam-Holder/", this url produces error: it prints None for favorite count
            "https://www.instructables.com/Recycled-Denim-Book-Protector/",
            "https://www.instructables.com/Color-Changing-Bling-Ring/",
            "https://www.instructables.com/Mushroom-Forest-Book-Nook/",
            "https://www.instructables.com/Backflow-Incense-Burner/",
            "https://www.instructables.com/The-74-PVC-Mega-Awesome-Super-PVC-Table/",
-           "https://www.instructables.com/Old-Bicycle-Seat-Felted-Taxidermy/"
+           "https://www.instructables.com/Old-Bicycle-Seat-Felted-Taxidermy/",
+           "https://www.instructables.com/O3-enabled-BLE-Weather-Station-Predicting-Air-Qual/",
+           "https://www.instructables.com/Repair-a-Gramophone-SoundboxReproducer-With-3D-Pri/",
+           "https://www.instructables.com/Plywood-Legoman-60cm-Cardboard-Lego-Brick-Light/",
+           "https://www.instructables.com/Modular-Tree-Lamp-3D-Printed-or-Lasercut-/",
+           "https://www.instructables.com/Orrery-Earth-Moon-and-Sun/",
+           "https://www.instructables.com/Lazy-Susan-20-Sushi-Train/",
+           "https://www.instructables.com/Table-From-a-2-X-4-Board/",
+           "https://www.instructables.com/Giantamax-Snorlax-Flower-Pot-%E8%B6%85%E6%9E%81%E5%B7%A8%E5%8C%96%E5%8D%A1%E6%AF%94%E5%85%BD%E8%8A%B1%E7%9B%86/",
+           "https://www.instructables.com/Make-a-Custom-Tilt-Top-Tool-Caddy/",
+           "https://www.instructables.com/Simple-Holographic-Audio-Visualizer/",
+           "https://www.instructables.com/Making-a-Pencil-Box-From-Scrap-Wood-Gift-Idea/",
+           "https://www.instructables.com/Turning-an-Old-Teak-Coffee-Table-Into-a-Ceiling-La/",
+           "https://www.instructables.com/Tensegrity-Levitation/",
+           "https://www.instructables.com/Cardboard-Lamp-2/",
+           "https://www.instructables.com/Premium-Black-Walnut-21-Speakers/",
+           "https://www.instructables.com/D4E1-Coffee-Cup-Carrier/",
+           "https://www.instructables.com/Emotionally-Unavailable-Plant/"
+            
            ]
 
 for i, url in enumerate(url_list):
