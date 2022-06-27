@@ -79,7 +79,7 @@ url_list = ["https://www.instructables.com/DIY-Cardboard-Tensegrity-Pen-Holder/"
            "https://www.instructables.com/Skull-and-Mushroom-Terrarium/",
            "https://www.instructables.com/Simple-LED-Earrings-1/",
            "https://www.instructables.com/Cardboard-Storage-Shelf-From-Single-Box/",
-           "https://www.instructables.com/A-Cardboard-Polaroid-Camera-Webcam-Holder/",
+           #"https://www.instructables.com/A-Cardboard-Polaroid-Camera-Webcam-Holder/",
            "https://www.instructables.com/Recycled-Denim-Book-Protector/",
            "https://www.instructables.com/Color-Changing-Bling-Ring/",
            "https://www.instructables.com/Mushroom-Forest-Book-Nook/",
